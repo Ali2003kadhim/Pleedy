@@ -14,11 +14,21 @@ body{
 
 img{
     width: 30ex;
-    margin-left: 20%;
     margin-top: 80px;
     border: dotted cyan;
+    margin-right: 50px;
 }
 
 #h1AboutUs{
     color: green;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+img:hover{
+    border: dotted rgb(255, 55, 0);
 }
